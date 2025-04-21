@@ -46,11 +46,24 @@ The system processes synthetic medical data in XML format, extracts relevant pat
    ```
    pip install -r requirements.txt
    ```
-3. Create a `.env` file in the project root with your OpenAI API key:
+3. Download Synthea Sample Data
+    1. Download the Synthea sample data in CCDA format from:
+       [https://synthetichealth.github.io/synthea-sample-data/downloads/latest/synthea_sample_data_ccda_latest.zip](https://synthetichealth.github.io/synthea-sample-data/downloads/latest/synthea_sample_data_ccda_latest.zip)
+    
+    2. Extract the ZIP file contents to a folder named `data` in the project root directory:
+       ```
+       project_root/
+       ├── data/                  # Create this folder and extract the ZIP contents here
+       │   └── ccda/              # This folder should contain the .xml files
+       ├── AI_In_healthcare/
+       │   └── Assignment5/
+       │       └── ass5.py
+       └── README.md
+4. Create a `.env` file in the project root with your OpenAI API key:
    ```
    OPENAI_API_KEY=your_api_key_here
    ```
-4. Ensure your dataset is in the correct location (`AI_In_healthcare/Assignment5/dataset`)
+5. Ensure your dataset is in the correct location (`AI_In_healthcare/Assignment5/dataset`)
 
 ## Usage
 
