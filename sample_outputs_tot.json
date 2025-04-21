@@ -1,4 +1,4 @@
-input:
+Input:
 {
 I need to create a medical summary for a patient using a tree of thoughts approach, where I explore multiple reasoning paths before reaching a conclusion.
 
@@ -29,7 +29,7 @@ Path 3 - Integrated Analysis:
 
 }
 
-output:
+Output:
 {
 COMPREHENSIVE MEDICAL SUMMARY FOR ADELAIDE HODKIEWICZ
 
